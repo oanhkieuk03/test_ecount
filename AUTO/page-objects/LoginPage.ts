@@ -1,4 +1,4 @@
-import { Page, Locator, expect } from '@playwright/test';
+import { Page, Locator } from '@playwright/test';
 
 export class LoginPage {
     readonly page: Page;
@@ -12,6 +12,9 @@ export class LoginPage {
     readonly languageDropdown: Locator;
     readonly qrLoginTab: Locator;
     readonly idLoginTab: Locator;
+    readonly websiteLink: Locator;
+    readonly customerPortalLink: Locator;
+    readonly userPayLink: Locator;
 
     constructor(page: Page) {
         this.page = page;
@@ -22,14 +25,16 @@ export class LoginPage {
         this.saveCodeIdCheckbox = page.locator('#loginck');
         this.clockInCheckbox = page.locator('#logintimeinck');
         this.forgotLoginLink = page.getByText('Forgot your login information?');
-        // The language button usually has a specific class or is the only button in the footer
         this.languageDropdown = page.locator('button').filter({ hasText: 'United States' }).or(page.locator('.lang_select'));
         this.qrLoginTab = page.locator('a, li').filter({ hasText: 'QR Login' }).first();
         this.idLoginTab = page.locator('a, li').filter({ hasText: 'ID Login' }).first();
+        this.websiteLink = page.locator('a, button').filter({ hasText: /i-Aicon Website/i }).first();
+        this.customerPortalLink = page.locator('a, button').filter({ hasText: /Customer Portal/i }).first();
+        this.userPayLink = page.locator('a, button').filter({ hasText: /UserPay/i }).first();
     }
 
     async goto() {
-        await this.page.goto('https://login.ecount.com/');
+        await this.page.goto('/');
     }
 
     async login(companyCode: string, userId: string, password: string) {
@@ -45,7 +50,7 @@ export class LoginPage {
         await this.page.waitForLoadState('networkidle');
     }
 
-    async getErrorMessage() {
-        return this.page.locator('.error_box, #login_msg, .view-error');
+    async getErrorMessage(): Promise<Locator> {
+        return this.page.locator('.error_box, #login_msg, .view-error').first();
     }
 }

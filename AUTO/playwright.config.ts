@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'https://login.ecount.com',
+    baseURL: process.env.APP_URL ?? 'https://app.i-aicon.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
