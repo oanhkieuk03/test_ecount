@@ -1,0 +1,561 @@
+[
+  {
+    "tagName": "BUTTON",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": "button",
+    "text": "×",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "com_code",
+    "name": "com_code",
+    "placeholder": "Company Code",
+    "type": "text",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "id",
+    "name": "id",
+    "placeholder": "ID",
+    "type": "text",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "passwd",
+    "name": "passwd",
+    "placeholder": "Password",
+    "type": "password",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "spasswd",
+    "name": "spasswd",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "loginck",
+    "name": "loginck",
+    "placeholder": null,
+    "type": "checkbox",
+    "text": "on",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "logintimeinck",
+    "name": "logintimeinck",
+    "placeholder": null,
+    "type": "checkbox",
+    "text": "on",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "BUTTON",
+    "id": "save",
+    "name": null,
+    "placeholder": null,
+    "type": "button",
+    "text": "Login",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Retry",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "homePage",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "ECOUNT Website",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "ECOUNT ERP",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Customer Portal",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "UserPay",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "createShortcut",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Forgot your login information?",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "BUTTON",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": "button",
+    "text": "United States (English)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "한국 (한국어)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "United States (English)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "中国 (简体中文)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "台灣 (繁體中文)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "日本 (日本語)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Việt Nam (Tiếng Việt)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "América Latina (Español)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Malaysia (English)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Indonesia (Bahasa Indonesia)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "ประเทศไทย (ไทย)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Philippines (English)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "Uzbekistan (Russian)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "A",
+    "id": "",
+    "name": null,
+    "placeholder": null,
+    "type": null,
+    "text": "香港 (繁體中文)",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "lan_type",
+    "name": "lan_type",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "en-US",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "process_ing",
+    "name": "process_ing",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "N",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "zone",
+    "name": "zone",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "db_shard_no",
+    "name": "db_shard_no",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "1",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "domain",
+    "name": "domain",
+    "placeholder": null,
+    "type": "hidden",
+    "text": ".ecount.com",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "m_flag",
+    "name": "m_flag",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "error_code",
+    "name": "error_code",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "error_msg",
+    "name": "error_msg",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "con_type",
+    "name": "con_type",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "uname",
+    "name": "uname",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "login_days",
+    "name": "login_days",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "brn_cd",
+    "name": "brn_cd",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "xurl_rd",
+    "name": "xurl_rd",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "login_type",
+    "name": "login_type",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "0",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "access_site",
+    "name": "access_site",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "ECOUNT",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "hidExSID",
+    "name": "hidExSID",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "hidFromCs",
+    "name": "hidFromCs",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "hidCnFlag",
+    "name": "hidCnFlag",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "adminChecked",
+    "name": "adminChecked",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "N",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "noHistoryIpReason",
+    "name": "noHistoryIpReason",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "deviceFlag",
+    "name": "deviceFlag",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "deviceKey",
+    "name": "deviceKey",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "forceLogout",
+    "name": "forceLogout",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "closeSessionFlag",
+    "name": "closeSessionFlag",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "sip",
+    "name": "sip",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "5f454b5b430a1600020c020a1b5f",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "qrNumber",
+    "name": "qrNumber",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "tagName": "INPUT",
+    "id": "s_second_auth_sid",
+    "name": "s_second_auth_sid",
+    "placeholder": null,
+    "type": "hidden",
+    "text": "",
+    "role": null,
+    "ariaLabel": null
+  }
+]
