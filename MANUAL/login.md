@@ -1,6 +1,6 @@
 # Manual Test Cases for i-Aicon Login Page
 
-| ID | Category | Priority | Title | Steps | Tests data | Expected result | Status |
+| ID | Category | Priority | Title | Steps | Tests Data | Expected Result | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **TC_001** | Functional | P0 | Successful login with valid credentials | 1. Access the login URL<br>2. Enter valid Company Code<br>3. Enter valid User ID<br>4. Enter valid Password<br>5. Click "Login" button | Code: `[valid_code]`<br>ID: `[valid_id]`<br>Pass: `[valid_password]` | User logs in successfully and is redirected to the Home/Dashboard page. | Untested |
 | **TC_002** | Functional | P0 | Login with invalid Company Code | 1. Enter an incorrect Company Code<br>2. Enter valid ID and Password<br>3. Click "Login" | Code: `[invalid_code]`<br>ID: `[valid_id]`<br>Pass: `[valid_password]` | System displays an error indicating the company code does not exist. | Untested |
