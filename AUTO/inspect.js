@@ -4,7 +4,7 @@ const fs = require('fs');
 (async () => {
     const browser = await chromium.launch();
     const page = await browser.newPage();
-    await page.goto('https://login.ecount.com/');
+    await page.goto(process.env.BASE_URL);
     const inputs = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('input, button, a')).map(el => ({
             tagName: el.tagName,

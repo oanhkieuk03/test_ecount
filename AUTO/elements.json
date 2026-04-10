@@ -95,7 +95,7 @@
     "name": null,
     "placeholder": null,
     "type": null,
-    "text": "ECOUNT Website",
+    "text": "i-Aicon Website",
     "role": null,
     "ariaLabel": null
   },
@@ -105,7 +105,7 @@
     "name": null,
     "placeholder": null,
     "type": null,
-    "text": "ECOUNT ERP",
+    "text": "i-Aicon ERP",
     "role": null,
     "ariaLabel": null
   },
@@ -334,7 +334,7 @@
     "name": "domain",
     "placeholder": null,
     "type": "hidden",
-    "text": ".ecount.com",
+    "text": ".i-aicon.com",
     "role": null,
     "ariaLabel": null
   },
@@ -434,7 +434,7 @@
     "name": "access_site",
     "placeholder": null,
     "type": "hidden",
-    "text": "ECOUNT",
+    "text": "i-Aicon",
     "role": null,
     "ariaLabel": null
   },

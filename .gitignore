@@ -1,3 +1,4 @@
 AUTO/node_modules
 AUTO/playwright-report
 AUTO/test-results
+AUTO/test_output.txt
